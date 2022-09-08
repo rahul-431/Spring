@@ -1,6 +1,6 @@
 package com.example.demo1.controller;
-
 import com.example.demo1.pojo.User;
+import com.example.demo1.service.UserService;
 import com.example.demo1.service.UserServiceImplementation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class UserController {
 
     @Autowired
-    UserServiceImplementation userServiceImplementation;
+    UserService userServiceImplementation;
 
     //get all user details;
 
@@ -31,7 +31,7 @@ public class UserController {
     }
 
     @GetMapping("/getRequest")
-    public String getUser(@RequestParam String name,@RequestParam(required = false) Integer age,@RequestParam(defaultValue = "nepal") String address)
+    public String getUser(@RequestParam String name,@RequestParam(required = false,defaultValue = "20") Integer age,@RequestParam(defaultValue = "nepal") String address)
     {
         return "User name is: "+name+" and age is: "+age+" and address is: "+address;
     }
