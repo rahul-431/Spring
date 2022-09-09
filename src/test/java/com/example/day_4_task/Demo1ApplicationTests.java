@@ -1,4 +1,4 @@
-package com.example.demo1;
+package com.example.day_4_task;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

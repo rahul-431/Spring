@@ -1,6 +1,6 @@
-package com.example.demo1.service;
+package com.example.day_4_task.service;
 
-import com.example.demo1.pojo.User;
+import com.example.day_4_task.pojo.User;
 import java.util.ArrayList;
 
 public interface UserService {

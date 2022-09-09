@@ -1,7 +1,6 @@
-package com.example.demo1.controller;
-import com.example.demo1.pojo.User;
-import com.example.demo1.service.UserService;
-import com.example.demo1.service.UserServiceImplementation;
+package com.example.day_4_task.controller;
+import com.example.day_4_task.pojo.User;
+import com.example.day_4_task.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

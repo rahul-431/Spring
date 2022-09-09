@@ -1,10 +1,9 @@
-package com.example.demo1.service;
+package com.example.day_4_task.service;
 
-import com.example.demo1.pojo.User;
+import com.example.day_4_task.pojo.User;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.stream.Collectors;
 
 @Service
 public class UserServiceImplementation implements UserService{
